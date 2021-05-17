@@ -14,7 +14,7 @@ GenericWrapperFunctions --> pagelocators --> pageactions --> businesscomponents 
 
 * Execution Mode and Browser parameters are maintained in TestNG XMLS and valid values in enum (src/test/java/com.test.lakshmi.selenium.enums) should be used
 
-* CukeHooks class is used to manage the @Before and @After Scenario functions related to cucumber scenario logic
+* CucumberHooks class is used to manage the @Before and @After Scenario functions related to cucumber scenario logic
 
 * WebDriverManager Used for picking the driver file automatically
 
