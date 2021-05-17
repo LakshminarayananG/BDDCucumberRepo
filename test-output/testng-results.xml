@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-17T11:37:21 BST" name="All Test Suite" finished-at="2021-05-17T11:38:50 BST" duration-ms="88974">
+  <suite started-at="2021-05-17T16:22:27 BST" name="All Test Suite" finished-at="2021-05-17T16:24:19 BST" duration-ms="112202">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@3e11f9e9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@401f7633]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-05-17T11:37:21 BST" name="Regression Suite" finished-at="2021-05-17T11:38:50 BST" duration-ms="88974">
+    <test started-at="2021-05-17T16:22:27 BST" name="Regression Suite" finished-at="2021-05-17T16:24:19 BST" duration-ms="112202">
       <class name="com.test.lakshmi.cucumber.runners.RegressionRunnerClass">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@3e11f9e9]" started-at="2021-05-17T11:37:21 BST" name="setUpClass" finished-at="2021-05-17T11:37:22 BST" duration-ms="1203" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@401f7633]" started-at="2021-05-17T16:22:27 BST" name="setUpClass" finished-at="2021-05-17T16:22:28 BST" duration-ms="1066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@3e11f9e9]" started-at="2021-05-17T11:37:22 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-17T11:38:11 BST" duration-ms="48885" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@401f7633]" started-at="2021-05-17T16:22:28 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-17T16:23:39 BST" duration-ms="71231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,18 +23,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Order T-Shirt]"]]>
+                <![CDATA["Optional[Order T-Shirt online]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@3e11f9e9]" started-at="2021-05-17T11:38:11 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-17T11:38:40 BST" duration-ms="29049" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@401f7633]" started-at="2021-05-17T16:23:39 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-17T16:24:09 BST" duration-ms="29544" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Update Personal Information (First Name) in my account"]]>
+                <![CDATA["Update Personal Information (First Name) in my account and validate the changed first name"]]>
               </value>
             </param>
             <param index="1">
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@3e11f9e9]" started-at="2021-05-17T11:38:40 BST" name="tearDownClass" finished-at="2021-05-17T11:38:50 BST" duration-ms="9722" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.test.lakshmi.cucumber.runners.RegressionRunnerClass@401f7633]" started-at="2021-05-17T16:24:09 BST" name="tearDownClass" finished-at="2021-05-17T16:24:19 BST" duration-ms="10287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

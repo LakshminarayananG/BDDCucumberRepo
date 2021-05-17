@@ -13,19 +13,19 @@ public class GenericStepDefs extends OrderConfirmationActions {
     LoginPageActions loginobj = new LoginPageActions();
 
     @Given ("^I launch the (.+)$")
-    public void i_launch_the_application(String application) throws InterruptedException {
+    public void invokeApplication(String application) throws InterruptedException {
     	baseobj.launchApplication(application);
 
     }
 
     @And("^I login to the application using (.+) and (.+)$")
-    public void login_to_the_application(String userName, String password){
+    public void loginToApplication(String userName, String password){
     	baseobj.loginToApplication(userName,password);
 
     }
 
     @And("^I clear the cart if any items are added to it$")
-    public void empty_cart(){
+    public void emptyCart(){
         if(driver.findElements(loginobj.cartCount).size()!=0) {
             click(loginobj.cartCount);
             click(loginobj.removeCart);

@@ -26,9 +26,6 @@ public class GenericWrapperFunctions {
 
     
     
-    
-	 
-    
     /**
      * Function Description: To attach screenshot to extent report
      * @param scenario
@@ -40,8 +37,7 @@ public class GenericWrapperFunctions {
 		public void addScreenshot(Scenario scenario) throws IOException {
 		  File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		  byte[] fileContent = FileUtils.readFileToByteArray(screenshot);
-		  scenario.attach(fileContent, "image/png", "screenshot");
-		
+		  scenario.attach(fileContent, "image/png", "screenshot");		
 		}
 
    
@@ -377,8 +373,5 @@ public class GenericWrapperFunctions {
     }
 
     
-    
-
-
 }
 

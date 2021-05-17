@@ -15,16 +15,15 @@ public class DriverFactory {
         switch(browser){
 
             case CHROME:
-                WebDriverManager.chromedriver().setup(); // method to get the webdriver dynamically
+                WebDriverManager.chromedriver().setup(); 
                 ChromeOptions options = new ChromeOptions();
-                options.addArguments("--silent");
                 driver = new ChromeDriver(options);
                 driver.manage().window().maximize();
                 break;
                 
                 
             case CHROME_HEADLESS:
-                WebDriverManager.chromedriver().setup(); // method to get the webdriver dynamically
+                WebDriverManager.chromedriver().setup(); 
                 ChromeOptions chOptions = new ChromeOptions();
                 chOptions.addArguments("--headless");
                 driver = new ChromeDriver(chOptions);

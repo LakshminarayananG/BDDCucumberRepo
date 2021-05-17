@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 import com.test.lakshmi.selenium.framework.GenericWrapperFunctions;
 
-public class MyAccount extends GenericWrapperFunctions {
+public class MyAccountPage extends GenericWrapperFunctions {
 
     
     public final By personalInformation = By.xpath("//span[text()='My personal information']");

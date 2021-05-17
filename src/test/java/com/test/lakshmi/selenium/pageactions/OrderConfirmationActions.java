@@ -1,9 +1,9 @@
 package com.test.lakshmi.selenium.pageactions;
 
 import com.test.lakshmi.selenium.enums.TestContext;
-import com.test.lakshmi.selenium.pagelocators.OrderConfirmation;
+import com.test.lakshmi.selenium.pagelocators.OrderConfirmationPage;
 
-public class OrderConfirmationActions extends OrderConfirmation {
+public class OrderConfirmationActions extends OrderConfirmationPage {
 
 	public void navigateToTshirts() {
 		click(megaMenuTshirt);

@@ -17,11 +17,11 @@ public class CreateOrder extends OrderConfirmationActions {
         navigateToTshirts();
         getProductPrice();
         addToCart();
-        waitForPageLoad(20);
+        waitForPageLoad(25);
         validateCartPrice();
         getCartDetails();
         proceedToCheckout();
-        waitForPageLoad(20);
+        waitForPageLoad(25);
     }
 
     @Then("I validate the summary and confirm order")

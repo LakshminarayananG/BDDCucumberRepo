@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 import com.test.lakshmi.selenium.framework.GenericWrapperFunctions;
 
-public class Login extends GenericWrapperFunctions {
+public class LoginPage extends GenericWrapperFunctions {
 
 	public final By btnSignOut = By.cssSelector(".logout");
 	public final By cartCount = By.xpath("//div[@class='shopping_cart']/a/span[@class='ajax_cart_quantity']");

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="methods" data-provider-thread-count="1">
     <listeners>
-        <listener class-name="com.test.lakshmi.framework.TestNGListener"></listener>
+         <listener class-name="com.test.lakshmi.selenium.framework.TestNGListener"></listener>
     </listeners>
     <test verbose="1" preserve-order="true"
           name="Regression Suite">

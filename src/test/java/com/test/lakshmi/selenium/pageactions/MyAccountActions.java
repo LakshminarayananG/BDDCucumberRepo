@@ -1,9 +1,9 @@
 package com.test.lakshmi.selenium.pageactions;
 
 import com.test.lakshmi.selenium.enums.TestContext;
-import com.test.lakshmi.selenium.pagelocators.MyAccount;
+import com.test.lakshmi.selenium.pagelocators.MyAccountPage;
 
-public class MyAccountActions extends MyAccount {
+public class MyAccountActions extends MyAccountPage {
 
 	public void clickMyAccount() {
 		click(myAccount);

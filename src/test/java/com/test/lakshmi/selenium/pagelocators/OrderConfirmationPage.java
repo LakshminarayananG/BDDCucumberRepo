@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 import com.test.lakshmi.selenium.framework.GenericWrapperFunctions;
 
-public class OrderConfirmation extends GenericWrapperFunctions {
+public class OrderConfirmationPage extends GenericWrapperFunctions {
 
 	public final By megaMenuTshirt = By.xpath("//div[@id='block_top_menu']/ul/li/a[@Title='T-shirts']");
 	

@@ -1,8 +1,8 @@
 package com.test.lakshmi.selenium.pageactions;
 
-import com.test.lakshmi.selenium.pagelocators.Login;
+import com.test.lakshmi.selenium.pagelocators.LoginPage;
 
-public class LoginPageActions extends Login {
+public class LoginPageActions extends LoginPage {
 
     public void clickSignIn() {
         click(btnLogin);
