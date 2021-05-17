@@ -25,6 +25,11 @@ GenericWrapperFunctions --> pagelocators --> pageactions --> businesscomponents 
 	-Extent , cucumber reporting configuration maintained in corresponding property files
 
 
+## Reports
+
+Extent HTML and PDF reports are configured and will be available in /Reports folder. Each of the report folder name are generated based on current time and hence older 
+reports will also be available.
+
 ## Steps to execute the Test
 
 
@@ -35,10 +40,7 @@ This repo can be cloned and scenario execution can be done as below
 * From command line   : mvn clean test -PrunRegressionTest    ( make sure Java and maven are installed in the machine)
 
 
-## Reports
 
-Extent HTML and PDF reports are configured and will be available in /Reports folder. Each of the report folder name are generated based on current time and hence older 
-reports will also be available.
 
 
 
